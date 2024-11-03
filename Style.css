@@ -20,10 +20,10 @@ body {
     padding: 1rem 1.5rem;
     color: #cccccc;
     transition: all 0.2s ease;
-    display: block;
+    display: flex; /* Enable flexbox for alignment */
+    align-items: center; /* Vertically align icon and text */
     padding: 0.5rem 0;
 }
-
 
 .panel-icon {
     color: #e0e0e0;
