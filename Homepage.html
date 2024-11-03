@@ -5,68 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Link List</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <style>
-        body {
-            background-color: #070707; /* Dark background */
-            color: #eee; /* Light text */
-        }
-        .panel {
-            background-color: #9b9b9b; /* Slightly lighter panel background */
-        }
-        .panel-heading {
-            background-color: #555; /* Darker panel heading */
-            color: #eee;
-        }
-        .panel-tabs a {
-            color: #ccc; /* Lighter tab text */
-        }
-        .panel-tabs a.is-active {
-            background-color: #666; /* Darker active tab */
-            color: #eee;
-        }
-        .input.is-link {
-            background-color: #444; /* Dark input background */
-            color: #eee;
-            border-color: #666; /* Darker input border */
-        }
-        .input.is-link::placeholder {
-            color: #aaa; /* Lighter placeholder text */
-        }
-        .panel-block a {
-            color: #999; /* Lighter link text */
-        }
-        .panel-block a:hover {
-            color: #fff; /* White link text on hover */
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<article class="panel is-link">
-    <p class="panel-heading">Link</p>
-    <p class="panel-tabs">
-        <a class="is-active">All</a>
-    </p>
+<article class="panel">
+    <p class="panel-heading">My Links</p>
     <div class="panel-block">
         <p class="control has-icons-left">
-            <input class="input is-link" type="text" placeholder="Search" />
+            <input class="input is-link" type="text" placeholder="Search...">
             <span class="icon is-left">
-        <i class="fas fa-search" aria-hidden="true"></i>
-      </span>
+                <i class="fas fa-search"></i>
+            </span>
         </p>
     </div>
     <a class="panel-block" href="https://random-number-gen.pages.dev/INDEX">
-    <span class="panel-icon">
-      <i class="fas fa-book" aria-hidden="true"></i>
-    </span>
+        <span class="panel-icon">
+            <i class="fas fa-dice"></i>
+        </span>
         Random Number Gen
     </a>
     <a class="panel-block" href="https://moodynooby.github.io/Judgment/Main.html">
-    <span class="panel-icon">
-      <i class="fas fa-book" aria-hidden="true"></i>
-    </span>
+        <span class="panel-icon">
+            <i class="fas fa-gamepad"></i>
+        </span>
         The Game Of Judgment / Kachuful
     </a>
 </article>
+
 </body>
 </html>
