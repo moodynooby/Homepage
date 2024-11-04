@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/Homepage.html;C:/Users/Administrator/WebstormProjects/Homepage/new.js;C:/Users/Administrator/WebstormProjects/Homepage/Style.css" />
+    <option name="forceFullIndex" value="false" />
+    <option name="fileSummaryMaps" value="{&quot;C:/Users/Administrator/WebstormProjects/Homepage&quot;:&quot;{\&quot;/new.js\&quot;:\&quot;\&quot;}&quot;}" />
+    <option name="fileSkeletonMaps" value="{&quot;C:/Users/Administrator/WebstormProjects/Homepage&quot;:&quot;{\&quot;/Homepage.html\&quot;:{\&quot;file_path\&quot;:\&quot;/Homepage.html\&quot;,\&quot;file_name\&quot;:\&quot;Homepage.html\&quot;,\&quot;methods\&quot;:[]},\&quot;/new.js\&quot;:{\&quot;file_path\&quot;:\&quot;/new.js\&quot;,\&quot;file_name\&quot;:\&quot;new.js\&quot;,\&quot;methods\&quot;:[]},\&quot;/Style.css\&quot;:{\&quot;file_path\&quot;:\&quot;/Style.css\&quot;,\&quot;file_name\&quot;:\&quot;Style.css\&quot;,\&quot;methods\&quot;:[]}}&quot;}" />
+  </component>
+</project>
