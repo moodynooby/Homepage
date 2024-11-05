@@ -1,16 +1,16 @@
 body {
-    background-color: #000000
+    background-color: #14161a
     color: #e0e0e0;
     font-family: 'Zilla Slab', sans-serif;
 }
 
 .panel {
-    background-color: #222222;
+    background-color: #181b20;
     border: none; /* Remove default Bulma border */
 }
 
 .panel-heading {
-    background-color: #222222;
+    background-color: #181b20;
     color: #e0e0e0;
     font-size: 1.8rem;
     padding: 1.5rem;
@@ -30,9 +30,9 @@ body {
 
 
 .input.is-link {
-    background-color: #333;
+    background-color: #181b20;
     color: #e0e0e0;
-    border-color: transparent;
+    border-color: #ffffff;
 }
 
 .input.is-link::placeholder {
