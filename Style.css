@@ -7,7 +7,6 @@ body {
 .panel {
     background-color: #181b20;
     border: none; /* Remove default Bulma border */
-
 }
 
 .panel-heading {
@@ -26,13 +25,13 @@ body {
     display: flex; /* Enable flexbox for alignment */
     align-items: center; /* Vertically align icon and text */
     padding: 0.5rem 0;
-    line-height: 4rem;
-    margin-left: 10px;
+    line-height: 3rem;
 }
 
 .panel-block    img {
-    margin-right:5px ;
+    margin-right:3px ;
     height: 20px ;
+
 
 }
 
@@ -61,8 +60,10 @@ html {
     color: #e0e0e0;
     transition: all 0.2s ease; /* Smooth transition for all properties */
     display: block; /* Ensure the link area covers the entire line */
-    transition: all 0.2s ease;
-   font-size: 1.2rem;/* Add some top/bottom padding for hover effect */
+    padding: 0.5rem 0;
+    line-height: 4rem;
+
+    font-size: 1.2rem;/* Add some top/bottom padding for hover effect */
 }
 
 .panel-block a:hover {
