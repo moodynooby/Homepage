@@ -1,5 +1,5 @@
 body {
-    background-color: #14161a
+    background-color: #14161a;
     color: #e0e0e0;
     font-family: 'Zilla Slab', sans-serif;
 }
@@ -7,6 +7,7 @@ body {
 .panel {
     background-color: #181b20;
     border: none; /* Remove default Bulma border */
+
 }
 
 .panel-heading {
@@ -26,11 +27,18 @@ body {
     align-items: center; /* Vertically align icon and text */
     padding: 0.5rem 0;
     line-height: 4rem;
+    margin-left: 10px;
+}
+
+.panel-block    img {
+    margin-right:5px ;
+    height: 20px ;
+
 }
 
 
 .input.is-link {
-    background-color: #181b20;
+    background-color: #14161a;
     color: #e0e0e0;
     border-color: #ffffff;
 }
@@ -41,6 +49,7 @@ body {
 
 .icon.is-left {
     color: #999;
+
 }
 
 /* Correct placement for html background color */
@@ -48,16 +57,12 @@ html {
     background-color: #121212; /* Same dark gray as the body */
 }
 
-/* ... (rest of your CSS) ... */
-
 .panel-block a {
     color: #e0e0e0;
     transition: all 0.2s ease; /* Smooth transition for all properties */
     display: block; /* Ensure the link area covers the entire line */
-    padding: 0.5rem 0;
-    line-height: 4rem;
-
-    font-size: 1.2rem;/* Add some top/bottom padding for hover effect */
+    transition: all 0.2s ease;
+   font-size: 1.2rem;/* Add some top/bottom padding for hover effect */
 }
 
 .panel-block a:hover {
@@ -127,6 +132,14 @@ html {
 
 
 .panel-heading img {
-    height: 3rem; /* Adjust icon size as needed */
-    margin-right: 1rem; /* Add spacing between icon and text */
+    height: 3.5rem; /* Adjust icon size as needed */
+    margin-right: 2rem; /* Add spacing between icon and text */
 }
+
+.panel-heading img:first-child {
+    border: 1px solid #828282; /* Example: 2px white border */
+    border-radius: 20%; /* Make the border circular */
+    background-color: #2a2d34; /* Example: blue background */
+    padding: 5px; /* Example: 5px padding */
+}
+
